@@ -1,5 +1,6 @@
 // Definición del objetivo del Sprint
 const sprintGoal = "Desarrollar el catálogo de camiones con filtros y la solicitud de cotización en línea.";
+console.log("Sprint Goal:", sprintGoal);
 
 // Selección de historias de usuario del Product Backlog
 const sprintBacklog = [
@@ -16,9 +17,11 @@ const sprintBacklog = [
     estado: 'Pendiente'
   }
 ];
+console.log("Sprint Backlog:", sprintBacklog);
 
 // Estimación de tiempo para cada historia de usuario
 const estimatedTime = sprintBacklog.reduce((total, historia) => total + historia.puntos, 0) * 8; // 8 horas por punto de historia
+console.log("Estimated Time:", estimatedTime, "hours");
 
 // Definición de tareas para cada historia de usuario
 const tasks = [
@@ -47,3 +50,4 @@ const tasks = [
     estado: 'Pendiente'
   }
 ];
+console.log("Tasks:", tasks);
