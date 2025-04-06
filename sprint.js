@@ -23,4 +23,3 @@ function Catalogo() {
         </ul>
       </div>
     );
-  }
