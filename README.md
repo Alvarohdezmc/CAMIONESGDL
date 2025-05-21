@@ -12,48 +12,8 @@ Sistema de cotizaciones online
 Diseño responsive para acceso desde cualquier dispositivo
 •
 •
-Capturas de pantalla
-Página
-de inicio con productos destacados
-Catálogo de camiones con filtros
-Tecnologías utilizadas
-Frontend:
-Next.js 14 - Framework de React con renderizado del lado del servidor
-TypeScript - Superset tipado de JavaScript
-Tailwind CSS - Framework CSS utilitario
-Shadcn UI - Componentes de UI reutilizables
-Backend/Servicios:
 •
 •
-•
-Firebase - Plataforma de desarrollo de aplicaciones
-Firestore - Base de datos NoSQL
-Authentication - Autenticación de usuarios
-Storage - Almacenamiento de imágenes
-Hosting - Alojamiento web
-Requisitos previos
-Node.js (v18.0.0 o superior)
-npm (v9.0.0 o superior) o yarn (v1.22.0 o superior)
-Cuenta de Firebase
-Git
-Instalación
-Clonar el repositorio
-git clone https://github.com/tu-usuario/truckdepot.git
-cd truckdepot
-Instalar dependencias
-npm install
-# o
-yarn install
-Configurar variables de entorno
-Crea un archivo .env.local en la raíz del proyecto con las siguientes variables:
-NEXT_PUBLIC_FIREBASE_API_KEY=tu_api_key
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=tu_auth_domain
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=tu_project_id
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=tu_storage_bucket
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=tu_messaging_sender_id
-NEXT_PUBLIC_FIREBASE_APP_ID=tu_app_id
-•
-
 Estructura del proyecto
 truckdepot/
 ├── public/ # Archivos estáticos
